@@ -2,13 +2,10 @@
 
 / {
 
-        physical_layout0: kata0510_lily58_layout {
+        kata0510_lily58_layout: kata0510_lily58_layout {
             compatible = "zmk,physical-layout";
             display-name = "TulipKeys";
 
-
-            kscan = <&kscan0>;
-            transform = <&default_transform>;
 
             keys  //                     w   h    x    y     rot    rx    ry
                 = <&key_physical_attrs 100 100    0   40       0     0     0>
