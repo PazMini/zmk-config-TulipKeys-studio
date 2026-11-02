@@ -2,7 +2,7 @@
 
 / {
 
-        kata0510_lily58_layout: kata0510_lily58_layout {
+        TulipKeys_layout: TulipKeys_layout {
             compatible = "zmk,physical-layout";
             display-name = "TulipKeys";
 

@@ -1,18 +1,13 @@
-/*
- * Copyright (c) 2020 Pete Johanson
- *
- * SPDX-License-Identifier: MIT
- */
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "lily58-layouts.dtsi"
+#include "TulipKeys-layouts.dtsi"
 
 / {
     chosen {
         zephyr,display = &oled;
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &kata0510_lily58_layout;
+        zmk,physical-layout = &TulipKeys_layout;
     };
 
     default_transform: keymap_transform_0 {
@@ -59,7 +54,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)                 RC(4,6) RC(4,7) 
     };
 };
 
-&kata0510_lily58_layout {
+&kata0510_TulipKeys_layout {
     transform = <&default_transform>;
 };
 

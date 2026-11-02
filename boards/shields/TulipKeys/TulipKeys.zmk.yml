@@ -1,0 +1,16 @@
+file_format: "1"
+id: TulipKeys
+name: TulipKeys
+type: shield
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - studio
+siblings:
+  - TulipKeys_left
+  - TulipKeys_right
+  # - TulipKeys_left_peripheral
+  # - TulipKeys_dongle_xiao
+  # - TulipKeys_dongle_pro_micro
