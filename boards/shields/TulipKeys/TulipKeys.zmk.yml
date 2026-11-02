@@ -3,10 +3,8 @@ id: TulipKeys
 name: TulipKeys
 type: shield
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
-  - display
   - studio
 siblings:
   - TulipKeys_left
