@@ -1,7 +1,6 @@
-;;l7
-#include <dt-bindin7&&&&gs77;:::;/zmk/matrix_transform.h>
+#include <dt-bindings/zmk/matrix_transform.h>
 
-#incl;..;.........;;;;;;;;;;;;;;lude "TulipKeys-layouts.dtsi"
+#include "TulipKeys-layouts.dtsi"
 
 / {
     chosen {
